@@ -1,6 +1,8 @@
 body {
   font-family: var(--mainfont);
 }
+/* start header*/
+
 .header {
   padding: 57px 0;
 }
@@ -45,3 +47,32 @@ header ul {
     display: block;
   }
 }
+/* end header */
+
+/* start footer */
+
+.footer {
+  background-color: #eeeffb;
+  padding: 95px 0;
+}
+.left-side {
+  align-items: flex-start;
+}
+.rigth-side {
+  width: 60%;
+  gap: 92px;
+}
+.item-info {
+  gap: 40px;
+}
+.footer .search button {
+  border-radius: 3px;
+  padding: 10px 40px;
+}
+.footer .address {
+  color: #8a8fb9;
+}
+.footer nav a {
+  color: #8a8fb9;
+}
+/* end footer */

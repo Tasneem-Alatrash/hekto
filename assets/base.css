@@ -37,6 +37,21 @@ li {
   width: calc(100% - 320px);
   margin: auto;
 }
+@media screen and (max-width: 1400px) {
+  .container {
+    width: calc(100% - 200px);
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    width: calc(100% - 100px);
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: calc(100% - 40px);
+  }
+}
 .text-white {
   color: #fff;
 }
@@ -63,4 +78,10 @@ li {
 }
 .gap-6 {
   gap: 30px;
+}
+.felx-justify {
+  justify-content: center;
+}
+.flex-align {
+  align-items: center;
 }

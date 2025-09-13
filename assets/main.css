@@ -24,6 +24,7 @@ header ul {
 .search form {
   border: 3px solid #e7e6ef;
   border-radius: 5px;
+  display: flex;
 }
 .search input {
   border: none;
@@ -40,7 +41,7 @@ header ul {
 
 @media screen and (max-width: 1200px) {
   .list,
-  .search {
+  .header .search {
     display: none;
   }
   .header .bar {
@@ -53,26 +54,46 @@ header ul {
 
 .footer {
   background-color: #eeeffb;
-  padding: 95px 0;
+  padding: 50px 0;
 }
-.left-side {
-  align-items: flex-start;
-}
-.rigth-side {
-  width: 60%;
-  gap: 92px;
-}
-.item-info {
-  gap: 40px;
-}
-.footer .search button {
-  border-radius: 3px;
-  padding: 10px 40px;
-}
+
+.footer nav a,
 .footer .address {
   color: #8a8fb9;
 }
-.footer nav a {
-  color: #8a8fb9;
+.left-side {
+  align-items: flex-start;
+  width: calc((100% - 30px) / 2);
+}
+.footer .search button {
+  border-radius: 3px;
+  padding: 8px 10px;
+}
+.rigth-side {
+  width: calc((100% - 30px) / 2);
+  gap: 92px;
+}
+.footer .rigth-side .row {
+  gap: 45px;
+  align-items: flex-start;
+}
+.footer-item {
+  gap: 40px;
+
+  width: calc((100% - 90px) / 3);
+}
+@media screen and (max-width: 992px) {
+  .footer .left-side,
+  .footer .rigth-side {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer {
+    text-align: center;
+  }
+  .footer-item {
+    width: 100%;
+  }
 }
 /* end footer */

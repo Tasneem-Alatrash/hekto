@@ -50,6 +50,27 @@ header ul {
 }
 /* end header */
 
+/* Start newslater*/
+.newslater {
+  background-image: url(./img/public/newslater.webp);
+  padding: 175px 0;
+  text-align: center;
+  /* background-attachment: fixed; */
+}
+.newslater h2 {
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: #151875;
+  font-family: "Josefin Sans", sans-serif;
+}
+.shop-btn {
+  transition: all 0.5s;
+}
+.shop-btn:hover {
+  background-color: #151875;
+}
+/* End newslater */
+
 /* Start Clients */
 .clients {
   padding: 50px 0;

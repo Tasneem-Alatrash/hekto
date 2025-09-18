@@ -94,3 +94,9 @@ li {
 .text-right {
   text-align: right;
 }
+.text-primary {
+  color: var(--primary);
+}
+.text-secondary {
+  color: #151875;
+}

@@ -15,10 +15,10 @@ header ul {
   display: none;
 }
 
-.list a {
+.header .list a {
   color: #0d0e43;
 }
-.header .active {
+.header .list .active {
   color: var(--primary);
 }
 .search form {
@@ -40,7 +40,7 @@ header ul {
 }
 
 @media screen and (max-width: 1200px) {
-  .list,
+  .header .list,
   .header .search {
     display: none;
   }
@@ -60,6 +60,7 @@ header ul {
 .featured-product h2 {
   margin-bottom: 30px;
   font-size: 42px;
+  font-family: var(--secondfont);
   color: #1a0b5b;
 }
 .featured-product .product {
@@ -148,6 +149,62 @@ header ul {
   color: #fff;
 }
 /* end product */
+
+/* start leatest product */
+.leatest-products {
+  padding: 50px 0;
+}
+.leatest-products h2 {
+  color: #151875;
+  font-size: 42px;
+  font-family: var(--secondfont);
+  margin-bottom: 25px;
+}
+.leatest-products nav {
+  margin-bottom: 50px;
+}
+.leatest-products .list {
+  gap: 60px;
+}
+.leatest-products nav a {
+  color: #151875;
+}
+.leatest-products .active {
+  color: var(--primary);
+  text-decoration: underline;
+}
+.leatest-products .products {
+  gap: 50px;
+}
+.leatest-products .product {
+  flex: 1 0 350px;
+  position: relative;
+}
+.product .img img {
+  width: 100%;
+}
+.badge-sale {
+  position: absolute;
+  width: 110px;
+  top: -40px;
+  left: 20px;
+  z-index: 10;
+}
+.badge-sale img {
+  width: 100%;
+}
+.leatest-products .content {
+  padding: 18px;
+  font-family: var(--secondfont);
+  color: #151875;
+  padding-left: 0;
+}
+.leatest-products .content .old-price {
+  font-size: 11px;
+  text-decoration: line-through;
+  color: var(--primary);
+}
+/* end leatest product */
 /* Start newslater*/
 .newslater {
   background-image: url(./img/public/newslater.webp);
@@ -159,7 +216,7 @@ header ul {
   margin-bottom: 30px;
   font-size: 35px;
   color: #151875;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: var(--secondfont);
 }
 .shop-btn {
   transition: all 0.5s;

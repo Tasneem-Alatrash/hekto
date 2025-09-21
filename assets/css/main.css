@@ -314,9 +314,69 @@ header ul {
   }
 }
 /* end shopex-offer */
+/* start Trending Products  */
+.Trending-Products {
+  padding: 50px 0;
+}
+.Trending-Products h2 {
+  font-size: 42px;
+  font-family: var(--secondfont);
+  color: #151875;
+  margin-bottom: 40px;
+}
+.Trending-Products .row {
+  gap: 20px;
+}
+.Trending-Products .product {
+  background-color: #fff;
+  flex: 1 0 270px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  filter: drop-shadow(
+    0px 8px 40px
+      rgba(
+        0.1921568661928177,
+        0.125490203499794,
+        0.5411764979362488,
+        0.05000000074505806
+      )
+  );
+}
+.Trending-Products .product .img {
+  margin: 12px;
+}
+.Trending-Products .content {
+  margin-bottom: 30px;
+}
+.Trending-Products .content h3 {
+  color: #151875;
+  font-size: 16px;
+}
+.Trending-Products .content-info span {
+  font-size: 14px;
+  color: #151875;
+  font-family: var(--secondfont);
+}
+.Trending-Products .content-info .old-price {
+  font-size: 12px;
+  color: #151875;
+  opacity: 30%;
+  text-decoration: line-through;
+}
+@media screen and (max-width: 600px) {
+  .Trending-Products h2 {
+    font-size: 25px;
+  }
+  .Trending-Products .row {
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* end Trending Products  */
 /* Start newslater*/
 .newslater {
-  background-image: url(./img/public/newslater.webp);
+  background-image: url(../img/public/newslater.webp);
   padding: 175px 0;
   text-align: center;
   /* background-attachment: fixed; */

@@ -259,6 +259,61 @@ header ul {
   }
 }
 /* end leatest product */
+/* start shopex-offer */
+.shopex-offer {
+  padding: 50px 0;
+}
+.shopex-offer h2 {
+  font-size: 42px;
+  font-family: var(--secondfont);
+  color: #151875;
+  margin-bottom: 40px;
+}
+.shopex-offer .row {
+  gap: 20px;
+}
+.shopex-offer .shope-service {
+  width: 270px;
+  height: 320px;
+  padding: 40px 25px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  flex: 1 0 270px;
+  margin-bottom: 20px;
+  filter: drop-shadow(
+    0px 8px 40px
+      rgba(
+        0.1921568661928177,
+        0.125490203499794,
+        0.5411764979362488,
+        0.05000000074505806
+      )
+  );
+}
+.shopex-offer .shope-service .img {
+  margin-bottom: 30px;
+}
+.shopex-offer .content h3 {
+  font-size: 22px;
+  font-family: var(--secondfont);
+  color: #151875;
+}
+.shopex-offer .content p {
+  font-size: 16px;
+  color: #1a0b5b;
+  opacity: 30%;
+}
+@media screen and (max-width: 600px) {
+  .shopex-offer h2 {
+    font-size: 25px;
+  }
+  .shopex-offer .row {
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* end shopex-offer */
 /* Start newslater*/
 .newslater {
   background-image: url(./img/public/newslater.webp);

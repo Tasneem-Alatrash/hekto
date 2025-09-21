@@ -422,6 +422,97 @@ header ul {
   }
 }
 /* End Clients */
+/* start Leatest Blog */
+
+.Leatest-Blog {
+  padding: 50px 0;
+}
+.Leatest-Blog h2 {
+  color: #151875;
+  font-size: 42px;
+  font-family: var(--secondfont);
+  margin-bottom: 40px;
+}
+.Leatest-Blog .row {
+  gap: 60px;
+}
+.Leatest-Blog .product {
+  width: 370px;
+  height: 493px;
+  background-color: #fff;
+
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-bottom: 20px;
+  filter: drop-shadow(
+    0px 8px 40px
+      rgba(
+        0.1921568661928177,
+        0.125490203499794,
+        0.5411764979362488,
+        0.05000000074505806
+      )
+  );
+}
+.Leatest-Blog .product .img {
+  padding: 0;
+  border-radius: 5px;
+}
+.Leatest-Blog .product .img img {
+  height: 100%;
+  border-radius: 8px;
+}
+.Leatest-Blog .user {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+}
+.Leatest-Blog .user .vactor {
+  width: 11.33px;
+  height: 11.33px;
+}
+.Leatest-Blog .user p {
+  color: #151875;
+  font-size: 14px;
+  font-family: var(--secondfont);
+}
+.Leatest-Blog .content-info {
+  align-items: flex-start;
+  padding-left: 20px;
+}
+.Leatest-Blog .content-info h3 {
+  font-family: var(--secondfont);
+  color: #151875;
+  font-size: 18px;
+  transition: all 0.7s;
+}
+.Leatest-Blog .content-info p {
+  text-align: start;
+  line-height: 30px;
+  color: #72718f;
+}
+.Leatest-Blog .content-info a {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  transition: all 0.7s;
+
+  font-size: 16px;
+}
+.Leatest-Blog .product:hover .content-info h3 {
+  color: var(--primary);
+}
+.Leatest-Blog .product:hover .content-info a {
+  color: var(--primary);
+}
+@media screen and (max-width: 1550px) {
+  .Leatest-Blog .row {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* end Leatest Blog */
 
 /* start footer */
 

@@ -1,802 +1,722 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
 
-    <!--google fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
 
-    <!--Base file-->
-    <link rel="stylesheet" href="./assets/css/base.css" />
-    <!--custom  file-->
-    <link rel="stylesheet" href="./assets/css/main.css" />
-  </head>
-  <body>
-    <header class="header">
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet" />
+
+  <!--Base file-->
+  <link rel="stylesheet" href="./assets/css/base.css" />
+  <!--custom  file-->
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./assets/img/public/Hekto_logo.svg" />
+          </a>
+        </div>
+        <nav class="list">
+          <ul>
+            <li class="list-item">
+              <a href="#" class="active">Home</a>
+            </li>
+            <li class="list-item">
+              <a href="#">Pages</a>
+            </li>
+            <li class="list-item">
+              <a href="#">Products</a>
+            </li>
+            <li class="list-item">
+              <a href="#">Blog</a>
+            </li>
+            <li class="list-item">
+              <a href="#">Shop</a>
+            </li>
+            <li class="list-item">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="search">
+          <form>
+            <input type="text" />
+            <button type="submit">
+              <img src="./assets/img/public/search-icon.svg" />
+            </button>
+          </form>
+        </div>
+        <svg class="bar" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+          <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+          <path
+            d="M64 160C64 142.3 78.3 128 96 128L480 128C497.7 128 512 142.3 512 160C512 177.7 497.7 192 480 192L96 192C78.3 192 64 177.7 64 160zM128 320C128 302.3 142.3 288 160 288L544 288C561.7 288 576 302.3 576 320C576 337.7 561.7 352 544 352L160 352C142.3 352 128 337.7 128 320zM512 480C512 497.7 497.7 512 480 512L96 512C78.3 512 64 497.7 64 480C64 462.3 78.3 448 96 448L480 448C497.7 448 512 462.3 512 480z" />
+        </svg>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero ">
       <div class="container">
         <div class="row">
-          <div class="logo">
-            <a href="./index.html">
-              <img src="./assets/img/public/Hekto_logo.svg" />
-            </a>
+          <div class="hero-content">
+            <div class="hero-lamp">
+              <img src="./assets/img/public/hero-lamp.webp" />
+            </div>
+            <div class="text-conetnt d-flex flex-direction gap-5">
+              <p class="first-p">Best Furniture For Your Castle....</p>
+              <h1>New Furniture Collection
+                Trends in 2020</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing
+                in phasellus non in justo.</p>
+              <a href="#" class="btn btn-primary">Shop Now</a>
+            </div>
           </div>
-          <nav class="list">
-            <ul>
-              <li class="list-item">
-                <a href="#" class="active">Home</a>
-              </li>
-              <li class="list-item">
-                <a href="#">Pages</a>
-              </li>
-              <li class="list-item">
-                <a href="#">Products</a>
-              </li>
-              <li class="list-item">
-                <a href="#">Blog</a>
-              </li>
-              <li class="list-item">
-                <a href="#">Shop</a>
-              </li>
-              <li class="list-item">
-                <a href="#">Contact</a>
-              </li>
+          <div class="hero-img">
+            <img src="./assets/img/public/hero-img.webp" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="featured-product text-center">
+      <h2>Featured Products</h2>
+      <div class="container">
+        <div class="row">
+          <div class="product">
+            <div class="img d-flex flex-direction flex-align gap-3">
+              <div class="icon d-flex gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z" />
+                </svg>
+              </div>
+              <img src="./assets/img/product/Cantilever chair-one.webp" />
+              <div class="view-details">
+                <a href="#" class="btn btn-success">View Details</a>
+              </div>
+            </div>
+            <div class="product-details d-flex flex-direction gap-2">
+              <h3 class="text-primary">Cantilever chair</h3>
+              <div class="color-options">
+                <button class="color color-one"></button>
+                <button class="color color-two"></button>
+                <button class="color color-three"></button>
+              </div>
+              <div class="product-info d-flex flex-direction gap-2">
+                <span class="text-secondary">Code - Y523201</span>
+                <span class="text-secondary">$42.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img d-flex flex-direction flex-align gap-3">
+              <div class="icon d-flex gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z" />
+                </svg>
+              </div>
+              <img src="./assets/img/product/Cantilever chair-two.webp" />
+              <div class="view-details">
+                <a href="#" class="btn btn-success">View Details</a>
+              </div>
+            </div>
+            <div class="product-details d-flex flex-direction gap-2">
+              <h3 class="text-primary">Cantilever chair</h3>
+              <div class="color-options">
+                <button class="color color-one"></button>
+                <button class="color color-two"></button>
+                <button class="color color-three"></button>
+              </div>
+              <div class="product-info d-flex flex-direction gap-2">
+                <span class="text-secondary">Code - Y523201</span>
+                <span class="text-secondary">$42.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img d-flex flex-direction flex-align gap-3">
+              <div class="icon d-flex gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z" />
+                </svg>
+              </div>
+              <img src="./assets/img/product/Cantilever chair-three.webp" />
+              <div class="view-details">
+                <a href="#" class="btn btn-success">View Details</a>
+              </div>
+            </div>
+            <div class="product-details d-flex flex-direction gap-2">
+              <h3 class="text-primary">Cantilever chair</h3>
+              <div class="color-options">
+                <button class="color color-one"></button>
+                <button class="color color-two"></button>
+                <button class="color color-three"></button>
+              </div>
+              <div class="product-info d-flex flex-direction gap-2">
+                <span class="text-secondary">Code - Y523201</span>
+                <span class="text-secondary">$42.00</span>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img d-flex flex-direction flex-align gap-3">
+              <div class="icon d-flex gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                  <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                  <path
+                    d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z" />
+                </svg>
+              </div>
+              <img src="./assets/img/product/Cantilever chair-four.webp" />
+              <div class="view-details">
+                <a href="#" class="btn btn-success">View Details</a>
+              </div>
+            </div>
+            <div class="product-details d-flex flex-direction gap-2">
+              <h3 class="text-primary" n>Cantilever chair</h3>
+              <div class="color-options">
+                <button class="color color-one"></button>
+                <button class="color color-two"></button>
+                <button class="color color-three"></button>
+              </div>
+              <div class="product-info d-flex flex-direction gap-2">
+                <span class="text-secondary">Code - Y523201</span>
+                <span>$42.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="leatest-products text-center">
+      <div class="container">
+        <div class="products-toolbar">
+          <h2>Leatest Products</h2>
+          <nav>
+            <ul class="list d-flex felx-justify">
+              <i class="list-item"><a class="active">New Arrival</a></i>
+              <i class="list-item"><a>Best Seller</a></i>
+              <i class="list-item"><a>Featured</a></i>
+              <i class="list-item"><a>Special Offer</a></i>
             </ul>
           </nav>
-          <div class="search">
-            <form>
-              <input type="text" />
-              <button type="submit">
-                <img src="./assets/img/public/search-icon.svg" />
-              </button>
-            </form>
-          </div>
-          <svg
-            class="bar"
-            width="20"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 640 640"
-          >
+          <svg class="bar" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
             <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
             <path
-              d="M64 160C64 142.3 78.3 128 96 128L480 128C497.7 128 512 142.3 512 160C512 177.7 497.7 192 480 192L96 192C78.3 192 64 177.7 64 160zM128 320C128 302.3 142.3 288 160 288L544 288C561.7 288 576 302.3 576 320C576 337.7 561.7 352 544 352L160 352C142.3 352 128 337.7 128 320zM512 480C512 497.7 497.7 512 480 512L96 512C78.3 512 64 497.7 64 480C64 462.3 78.3 448 96 448L480 448C497.7 448 512 462.3 512 480z"
-            />
+              d="M64 160C64 142.3 78.3 128 96 128L480 128C497.7 128 512 142.3 512 160C512 177.7 497.7 192 480 192L96 192C78.3 192 64 177.7 64 160zM128 320C128 302.3 142.3 288 160 288L544 288C561.7 288 576 302.3 576 320C576 337.7 561.7 352 544 352L160 352C142.3 352 128 337.7 128 320zM512 480C512 497.7 497.7 512 480 512L96 512C78.3 512 64 497.7 64 480C64 462.3 78.3 448 96 448L480 448C497.7 448 512 462.3 512 480z" />
           </svg>
         </div>
-      </div>
-    </header>
-    <main>
-      <section class="featured-product text-center">
-        <h2>Featured Products</h2>
-        <div class="container">
-          <div class="row">
-            <div class="product">
-              <div class="img d-flex flex-direction flex-align gap-3">
-                <div class="icon d-flex gap-3">
+        <div class="products d-flex flex-direction">
+          <div class="row gap-6">
+            <div class="product text-center">
+              <div class="img">
+                <img src="./assets/img/product/leatest-1.webp" />
+                <div class="icon d-flex flex-direction gap-3">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
                     <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                     <path
-                      d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z"
-                    />
+                      d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z" />
                   </svg>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
                     <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                     <path
-                      d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"
-                    />
+                      d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z" />
                   </svg>
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
                     <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
                     <path
-                      d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z"
-                    />
+                      d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z" />
                   </svg>
-                </div>
-                <img src="./assets/img/product/Cantilever chair-one.webp" />
-                <div class="view-details">
-                  <a href="#" class="btn btn-success">View Details</a>
                 </div>
               </div>
-              <div class="product-details d-flex flex-direction gap-2">
-                <h3 class="text-primary">Cantilever chair</h3>
-                <div class="color-options">
-                  <button class="color color-one"></button>
-                  <button class="color color-two"></button>
-                  <button class="color color-three"></button>
-                </div>
-                <div class="product-info d-flex flex-direction gap-2">
-                  <span class="text-secondary">Code - Y523201</span>
-                  <span class="text-secondary">$42.00</span>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img d-flex flex-direction flex-align gap-3">
-                <div class="icon d-flex gap-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                    <path
-                      d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z"
-                    />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                    <path
-                      d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"
-                    />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                    <path
-                      d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z"
-                    />
-                  </svg>
-                </div>
-                <img src="./assets/img/product/Cantilever chair-two.webp" />
-                <div class="view-details">
-                  <a href="#" class="btn btn-success">View Details</a>
-                </div>
-              </div>
-              <div class="product-details d-flex flex-direction gap-2">
-                <h3 class="text-primary">Cantilever chair</h3>
-                <div class="color-options">
-                  <button class="color color-one"></button>
-                  <button class="color color-two"></button>
-                  <button class="color color-three"></button>
-                </div>
-                <div class="product-info d-flex flex-direction gap-2">
-                  <span class="text-secondary">Code - Y523201</span>
-                  <span class="text-secondary">$42.00</span>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img d-flex flex-direction flex-align gap-3">
-                <div class="icon d-flex gap-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                    <path
-                      d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z"
-                    />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                    <path
-                      d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"
-                    />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                    <path
-                      d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z"
-                    />
-                  </svg>
-                </div>
-                <img src="./assets/img/product/Cantilever chair-three.webp" />
-                <div class="view-details">
-                  <a href="#" class="btn btn-success">View Details</a>
-                </div>
-              </div>
-              <div class="product-details d-flex flex-direction gap-2">
-                <h3 class="text-primary">Cantilever chair</h3>
-                <div class="color-options">
-                  <button class="color color-one"></button>
-                  <button class="color color-two"></button>
-                  <button class="color color-three"></button>
-                </div>
-                <div class="product-info d-flex flex-direction gap-2">
-                  <span class="text-secondary">Code - Y523201</span>
-                  <span class="text-secondary">$42.00</span>
-                </div>
-              </div>
-            </div>
-            <div class="product">
-              <div class="img d-flex flex-direction flex-align gap-3">
-                <div class="icon d-flex gap-3">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                    <path
-                      d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z"
-                    />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                    <path
-                      d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"
-                    />
-                  </svg>
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                    <path
-                      d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z"
-                    />
-                  </svg>
-                </div>
-                <img src="./assets/img/product/Cantilever chair-four.webp" />
-                <div class="view-details">
-                  <a href="#" class="btn btn-success">View Details</a>
-                </div>
-              </div>
-              <div class="product-details d-flex flex-direction gap-2">
-                <h3 class="text-primary" n>Cantilever chair</h3>
-                <div class="color-options">
-                  <button class="color color-one"></button>
-                  <button class="color color-two"></button>
-                  <button class="color color-three"></button>
-                </div>
-                <div class="product-info d-flex flex-direction gap-2">
-                  <span class="text-secondary">Code - Y523201</span>
-                  <span>$42.00</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="leatest-products text-center">
-        <div class="container">
-          <div class="products-toolbar">
-            <h2>Leatest Products</h2>
-            <nav>
-              <ul class="list d-flex felx-justify">
-                <i class="list-item"><a class="active">New Arrival</a></i>
-                <i class="list-item"><a>Best Seller</a></i>
-                <i class="list-item"><a>Featured</a></i>
-                <i class="list-item"><a>Special Offer</a></i>
-              </ul>
-            </nav>
-            <svg
-              class="bar"
-              width="20"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 640 640"
-            >
-              <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-              <path
-                d="M64 160C64 142.3 78.3 128 96 128L480 128C497.7 128 512 142.3 512 160C512 177.7 497.7 192 480 192L96 192C78.3 192 64 177.7 64 160zM128 320C128 302.3 142.3 288 160 288L544 288C561.7 288 576 302.3 576 320C576 337.7 561.7 352 544 352L160 352C142.3 352 128 337.7 128 320zM512 480C512 497.7 497.7 512 480 512L96 512C78.3 512 64 497.7 64 480C64 462.3 78.3 448 96 448L480 448C497.7 448 512 462.3 512 480z"
-              />
-            </svg>
-          </div>
-          <div class="products d-flex flex-direction">
-            <div class="row gap-6">
-              <div class="product text-center">
-                <div class="img">
-                  <img src="./assets/img/product/leatest-1.webp" />
-                  <div class="icon d-flex flex-direction gap-3">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z"
-                      />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"
-                      />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z"
-                      />
-                    </svg>
-                  </div>
-                </div>
 
-                <div class="content row">
-                  <p>Comfort Handy Craft</p>
-                  <div class="info-content">
-                    <span>$42.00</span>
-                    <span class="old-price">$65.00</span>
-                  </div>
-                </div>
-              </div>
-              <div class="product text-center">
-                <div class="badge-sale">
-                  <img src="assets/img/public/badge-sale.webp" />
-                </div>
-                <div class="img">
-                  <img src="./assets/img/product/leatest-2.webp" />
-                  <div class="icon d-flex flex-direction gap-3">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z"
-                      />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"
-                      />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div class="content row">
-                  <p>Comfort Handy Craft</p>
-                  <div class="info-content">
-                    <span>$42.00</span>
-                    <span class="old-price">$65.00</span>
-                  </div>
-                </div>
-              </div>
-              <div class="product text-center">
-                <div class="img">
-                  <img src="./assets/img/product/leatest-3.webp" />
-                  <div class="icon gap-3">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z"
-                      />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"
-                      />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div class="content row">
-                  <p>Comfort Handy Craft</p>
-                  <div class="info-content">
-                    <span>$42.00</span>
-                    <span class="old-price">$65.00</span>
-                  </div>
+              <div class="content row">
+                <p>Comfort Handy Craft</p>
+                <div class="info-content">
+                  <span>$42.00</span>
+                  <span class="old-price">$65.00</span>
                 </div>
               </div>
             </div>
-            <div class="row gap-6">
-              <div class="product text-center">
-                <div class="img">
-                  <img src="./assets/img/product/leatest-4.webp" />
-                  <div class="icon gap-3">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z"
-                      />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"
-                      />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div class="content row">
-                  <p>Comfort Handy Craft</p>
-                  <div class="info-content">
-                    <span>$42.00</span>
-                    <span class="old-price">$65.00</span>
-                  </div>
+            <div class="product text-center">
+              <div class="badge-sale">
+                <img src="assets/img/public/badge-sale.webp" />
+              </div>
+              <div class="img">
+                <img src="./assets/img/product/leatest-2.webp" />
+                <div class="icon d-flex flex-direction gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z" />
+                  </svg>
                 </div>
               </div>
-              <div class="product text-center">
-                <div class="img">
-                  <img src="./assets/img/product/leatest-5.webp" />
-                  <div class="icon gap-3">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z"
-                      />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"
-                      />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div class="content row">
-                  <p>Comfort Handy Craft</p>
-                  <div class="info-content">
-                    <span>$42.00</span>
-                    <span class="old-price">$65.00</span>
-                  </div>
+              <div class="content row">
+                <p>Comfort Handy Craft</p>
+                <div class="info-content">
+                  <span>$42.00</span>
+                  <span class="old-price">$65.00</span>
                 </div>
               </div>
-              <div class="product text-center">
-                <div class="img">
-                  <img src="./assets/img/product/leatest-6.webp" />
-                  <div class="icon gap-3">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z"
-                      />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z"
-                      />
-                    </svg>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 640 640"
-                    >
-                      <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-                      <path
-                        d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z"
-                      />
-                    </svg>
-                  </div>
+            </div>
+            <div class="product text-center">
+              <div class="img">
+                <img src="./assets/img/product/leatest-3.webp" />
+                <div class="icon gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z" />
+                  </svg>
                 </div>
-                <div class="content row">
-                  <p>Comfort Handy Craft</p>
-                  <div class="info-content">
-                    <span>$42.00</span>
-                    <span class="old-price">$65.00</span>
-                  </div>
+              </div>
+              <div class="content row">
+                <p>Comfort Handy Craft</p>
+                <div class="info-content">
+                  <span>$42.00</span>
+                  <span class="old-price">$65.00</span>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section class="shopex-offer text-center">
-        <h2 class="What-Shopex-Offer">What Shopex Offer!</h2>
-        <div class="container">
-          <div class="row">
-            <div class="shope-service">
+          <div class="row gap-6">
+            <div class="product text-center">
               <div class="img">
-                <img src="./assets/img/public/free-delivery.webp" />
+                <img src="./assets/img/product/leatest-4.webp" />
+                <div class="icon gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z" />
+                  </svg>
+                </div>
               </div>
-              <div
-                class="content d-flex flex-direction felx-justify flex-align gap-4"
-              >
-                <h3>24/7 Support</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
-                  purus gravida.
-                </p>
-              </div>
-            </div>
-            <div class="shope-service">
-              <div class="img">
-                <img src="./assets/img/public/cashback.webp" />
-              </div>
-              <div
-                class="content d-flex flex-direction felx-justify flex-align gap-4"
-              >
-                <h3>24/7 Support</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
-                  purus gravida.
-                </p>
-              </div>
-            </div>
-            <div class="shope-service">
-              <div class="img">
-                <img src="./assets/img/public/premium-quality.webp" />
-              </div>
-              <div
-                class="content d-flex flex-direction felx-justify flex-align gap-4"
-              >
-                <h3>24/7 Support</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
-                  purus gravida.
-                </p>
-              </div>
-            </div>
-            <div class="shope-service">
-              <div class="img">
-                <img src="./assets/img/public/24-hours-support.webp" />
-              </div>
-              <div
-                class="content d-flex flex-direction felx-justify flex-align gap-4"
-              >
-                <h3>24/7 Support</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
-                  purus gravida.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="Trending-Products text-center">
-        <h2>Trending Products</h2>
-        <div class="container">
-          <div class="row" ">
-            <div class="product">
-              <div class="img">
-                <img src="./assets/img/product/TrendingProducts-1.webp" />
-              </div>
-              <div class="content d-flex flex-direction gap-2">
-                <h3>Cantilever chair</h3>
-                <div class="content-info d-flex flex-align felx-justify gap-3">
-                  <span>$26.00</span>
-                  <span class="old-price">$42.00</span>
+              <div class="content row">
+                <p>Comfort Handy Craft</p>
+                <div class="info-content">
+                  <span>$42.00</span>
+                  <span class="old-price">$65.00</span>
                 </div>
               </div>
             </div>
-            <div class="product">
+            <div class="product text-center">
               <div class="img">
-                <img src="./assets/img/product/TrendingProducts-2.webp" />
+                <img src="./assets/img/product/leatest-5.webp" />
+                <div class="icon gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z" />
+                  </svg>
+                </div>
               </div>
-              <div class="content d-flex flex-direction gap-2">
-                <h3>Cantilever chair</h3>
-                <div class="content-info d-flex flex-align felx-justify gap-3">
-                  <span>$26.00</span>
-                  <span class="old-price">$42.00</span>
+              <div class="content row">
+                <p>Comfort Handy Craft</p>
+                <div class="info-content">
+                  <span>$42.00</span>
+                  <span class="old-price">$65.00</span>
                 </div>
               </div>
             </div>
-            <div class="product">
+            <div class="product text-center">
               <div class="img">
-                <img src="./assets/img/product/TrendingProducts-3.webp" />
-              </div>
-              <div class="content d-flex flex-direction gap-2">
-                <h3>Cantilever chair</h3>
-                <div class="content-info d-flex flex-align felx-justify gap-3">
-                  <span>$26.00</span>
-                  <span class="old-price">$42.00</span>
+                <img src="./assets/img/product/leatest-6.webp" />
+                <div class="icon gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M16 64C7.2 64 0 71.2 0 80C0 88.8 7.2 96 16 96L61.3 96C69 96 75.7 101.5 77 109.1L127.9 388.8C134.1 423 163.9 447.9 198.7 447.9L464 448C472.8 448 480 440.8 480 432C480 423.2 472.8 416 464 416L198.7 416C179.4 416 162.8 402.2 159.3 383.2L153.6 352L466.6 352C500.5 352 529.9 328.3 537 295.1L569.4 144.4C574.8 119.5 555.8 96 530.3 96L106.6 96C99.9 77.1 81.9 64 61.3 64L16 64zM113 128L530.3 128C535.4 128 539.2 132.7 538.1 137.7L505.8 288.4C501.8 306.8 485.6 320 466.7 320L147.9 320L113 128zM188 524C188 513 197 504 208 504C219 504 228 513 228 524C228 535 219 544 208 544C197 544 188 535 188 524zM260 524C260 495.3 236.7 472 208 472C179.3 472 156 495.3 156 524C156 552.7 179.3 576 208 576C236.7 576 260 552.7 260 524zM432 504C443 504 452 513 452 524C452 535 443 544 432 544C421 544 412 535 412 524C412 513 421 504 432 504zM432 576C460.7 576 484 552.7 484 524C484 495.3 460.7 472 432 472C403.3 472 380 495.3 380 524C380 552.7 403.3 576 432 576z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M442.9 128C410.5 128 380 143.6 361 169.9L333 208.6C330 212.8 325.2 215.2 320 215.2C314.8 215.2 310 212.7 307 208.6L279 169.9L279 169.9C260 143.6 229.5 128 197.1 128C141.2 128 96 173.3 96 229.1C96 284.1 130.4 336.2 167.8 381.6C209.9 432.8 261.2 477.6 296.3 504.5C302.5 509.3 310.7 512 320 512C329.3 512 337.4 509.3 343.7 504.5C378.8 477.7 430.1 432.8 472.2 381.6C509.5 336.2 544 284.1 544 229.1C544 173.2 498.7 128 442.9 128zM335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1C576 296.5 534.4 356.4 496.9 401.9C452.8 455.5 399.6 502 363.1 529.8C350.7 539.2 335.5 543.9 320 543.9C304.5 543.9 289.2 539.3 276.9 529.8C240.4 502 187.2 455.5 143.1 402C105.6 356.4 64 296.5 64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1L320 171.8L335 151.1z" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+                    <!--!Font Awesome Free v7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                      d="M272 96C369.2 96 448 174.8 448 272C448 369.2 369.2 448 272 448C174.8 448 96 369.2 96 272C96 174.8 174.8 96 272 96zM272 480C323.7 480 371 461.2 407.3 430L548.7 571.3C554.9 577.5 565.1 577.5 571.3 571.3C577.5 565.1 577.5 554.9 571.3 548.7L430 407.3C461.2 371 480 323.7 480 272C480 157.1 386.9 64 272 64C157.1 64 64 157.1 64 272C64 386.9 157.1 480 272 480zM256 344C256 352.8 263.2 360 272 360C280.8 360 288 352.8 288 344L288 288L344 288C352.8 288 360 280.8 360 272C360 263.2 352.8 256 344 256L288 256L288 200C288 191.2 280.8 184 272 184C263.2 184 256 191.2 256 200L256 256L200 256C191.2 256 184 263.2 184 272C184 280.8 191.2 288 200 288L256 288L256 344z" />
+                  </svg>
                 </div>
               </div>
-            </div>
-            <div class="product">
-              <div class="img">
-                <img src="./assets/img/product/TrendingProducts-4.webp" />
-              </div>
-              <div class="content d-flex flex-direction gap-2">
-                <h3>Cantilever chair</h3>
-                <div class="content-info d-flex flex-align felx-justify gap-3">
-                  <span>$26.00</span>
-                  <span class="old-price">$42.00</span>
+              <div class="content row">
+                <p>Comfort Handy Craft</p>
+                <div class="info-content">
+                  <span>$42.00</span>
+                  <span class="old-price">$65.00</span>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="newslater">
-        <h2>Get Leatest Update By Subscribe Our Newslater</h2>
-        <a href="#" class="btn btn-primary shop-btn">Shop now</a>
-      </section>
-      <section class="clients">
-        <div class="container">
-          <div class="row gap-3">
-            <div class="logo">
-              <img src="./assets/img/Clients/client.webp" />
-            </div>
-            <div class="logo">
-              <img src="./assets/img/Clients/client.webp" />
-            </div>
-            <div class="logo">
-              <img src="./assets/img/Clients/client.webp" />
-            </div>
-            <div class="logo">
-              <img src="./assets/img/Clients/client.webp" />
-            </div>
-            <div class="logo">
-              <img src="./assets/img/Clients/client.webp" />
-            </div>
-            <div class="logo">
-              <img src="./assets/img/Clients/client.webp" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="Leatest-Blog text-center">
-        <h2>Leatest Blog</h2>
-        <div class="container">
-          <div class="row">
-            <div class="product">
-              <div class="img">
-                <img src="./assets/img/product/Leatest-Blog1.webp"/>
-              </div>
-              <div class="content">
-                <div class="user d-flex flex-align gap-4">
-                  <div class="author d-flex gap-1">
-                    <img src="./assets/img/public/Vector.svg" class="vactor"/>
-                    <p>SaberAli</p> 
-                  </div>
-                  <div class="date d-flex gap-1 ">
-                    <img src="./assets/img/public/date.svg" class="vactor"/>
-                    <p>21 August,2020</p>
-                  </div>
-                </div>
-                <div class="content-info d-flex flex-direction gap-4">
-                  <h3>Top esssential Trends in 2021</h3>
-                  <p>More off this less hello samlande lied much
-                  over tightly circa horse taped mightly</p>
-                  <a href="#">Read More</a>
-                </div>
-              </div>
-            </div>
-             <div class="product">
-              <div class="img">
-                <img src="./assets/img/product/Leatest-Blog2.webp"/>
-              </div>
-              <div class="content">
-                <div class="user d-flex flex-align gap-4">
-                  <div class="author d-flex gap-1">
-                    <img src="./assets/img/public/Vector.svg" class="vactor"/>
-                    <p>Surfauxion</p> 
-                  </div>
-                  <div class="date d-flex gap-1 ">
-                    <img src="./assets/img/public/date.svg" class="vactor"/>
-                    <p>21 August,2020</p>
-                  </div>
-                </div>
-                <div class="content-info d-flex flex-direction gap-4">
-                  <h3>Top esssential Trends in 2021</h3>
-                  <p>More off this less hello samlande lied much
-                  over tightly circa horse taped mightly</p>
-                  <a href="#">Read More</a>
-                </div>
-              </div>
-            </div>
-             <div class="product">
-              <div class="img">
-                <img src="./assets/img/product/Leatest-Blog3.webp"/>
-              </div>
-              <div class="content">
-                <div class="user d-flex flex-align gap-4">
-                  <div class="author d-flex gap-1">
-                    <img src="./assets/img/public/Vector.svg" class="vactor"/>
-                    <p>SaberAli</p> 
-                  </div>
-                  <div class="date d-flex gap-1 ">
-                    <img src="./assets/img/public/date.svg" class="vactor"/>
-                    <p>21 August,2020</p>
-                  </div>
-                </div>
-                <div class="content-info d-flex flex-direction gap-4">
-                  <h3>Top esssential Trends in 2021</h3>
-                  <p>More off this less hello samlande lied much
-                  over tightly circa horse taped mightly</p>
-                  <a href="#">Read More</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <div class="container">
-        <div class="row gap-6">
-          <div class="left-side d-flex flex-direction gap-6">
-            <img src="./assets/img/public/Hekto_logo.svg" />
-            <div class="search">
-              <form>
-                <input type="email" placeholder="Enter Email Address" />
-                <button type="submit" class="text-white">Sign Up</button>
-              </form>
-            </div>
-            <div class="address d-flex flex-direction gap-2">
-              <h2>contact Info</h2>
-              <p>17 Princess Road, London, Greater London NW1 8JR, UK</p>
-            </div>
-          </div>
-          <div class="rigth-side">
-            <div class="row">
-              <div class="footer-item d-flex flex-direction">
-                <h2>Catagories</h2>
-                <nav class="d-flex flex-direction gap-4">
-                  <a href="#">Laptops & Computers</a>
-                  <a href="#">Cameras & Photography</a>
-                  <a href="#">Smart Phones & Tablets</a>
-                  <a href="#">Video Games & Consoles</a>
-                  <a href="#">Waterproof Headphones</a>
-                </nav>
-              </div>
-              <div class="footer-item d-flex flex-direction">
-                <h2>Customer Care</h2>
-                <nav class="d-flex flex-direction gap-4">
-                  <a href="#">My Account</a>
-                  <a href="#">Discount</a>
-                  <a href="#">Returns</a>
-                  <a href="#">Orders History</a>
-                  <a href="#">Order Tracking</a>
-                </nav>
-              </div>
-              <div class="footer-item d-flex flex-direction">
-                <h2>Pages</h2>
-                <nav class="d-flex flex-direction gap-4">
-                  <a href="#">Blog</a>
-                  <a href="#">Browse the Shop</a>
-                  <a href="#">Category</a>
-                  <a href="#">Pre-Built Pages</a>
-                  <a href="#">Visual Composer Elements</a>
-                  <a href="#">WooCommerce Pages</a>
-                </nav>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
-  </body>
+    </section>
+    <section class="shopex-offer text-center">
+      <h2 class="What-Shopex-Offer">What Shopex Offer!</h2>
+      <div class="container">
+        <div class="row">
+          <div class="shope-service">
+            <div class="img">
+              <img src="./assets/img/public/free-delivery.webp" />
+            </div>
+            <div class="content d-flex flex-direction felx-justify flex-align gap-4">
+              <h3>24/7 Support</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+                purus gravida.
+              </p>
+            </div>
+          </div>
+          <div class="shope-service">
+            <div class="img">
+              <img src="./assets/img/public/cashback.webp" />
+            </div>
+            <div class="content d-flex flex-direction felx-justify flex-align gap-4">
+              <h3>24/7 Support</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+                purus gravida.
+              </p>
+            </div>
+          </div>
+          <div class="shope-service">
+            <div class="img">
+              <img src="./assets/img/public/premium-quality.webp" />
+            </div>
+            <div class="content d-flex flex-direction felx-justify flex-align gap-4">
+              <h3>24/7 Support</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+                purus gravida.
+              </p>
+            </div>
+          </div>
+          <div class="shope-service">
+            <div class="img">
+              <img src="./assets/img/public/24-hours-support.webp" />
+            </div>
+            <div class="content d-flex flex-direction felx-justify flex-align gap-4">
+              <h3>24/7 Support</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
+                purus gravida.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Trending-Products text-center">
+      <h2>Trending Products</h2>
+      <div class="container">
+        <div class="row" ">
+            <div class=" product">
+          <div class="img">
+            <img src="./assets/img/product/TrendingProducts-1.webp" />
+          </div>
+          <div class="content d-flex flex-direction gap-2">
+            <h3>Cantilever chair</h3>
+            <div class="content-info d-flex flex-align felx-justify gap-3">
+              <span>$26.00</span>
+              <span class="old-price">$42.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img src="./assets/img/product/TrendingProducts-2.webp" />
+          </div>
+          <div class="content d-flex flex-direction gap-2">
+            <h3>Cantilever chair</h3>
+            <div class="content-info d-flex flex-align felx-justify gap-3">
+              <span>$26.00</span>
+              <span class="old-price">$42.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img src="./assets/img/product/TrendingProducts-3.webp" />
+          </div>
+          <div class="content d-flex flex-direction gap-2">
+            <h3>Cantilever chair</h3>
+            <div class="content-info d-flex flex-align felx-justify gap-3">
+              <span>$26.00</span>
+              <span class="old-price">$42.00</span>
+            </div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="img">
+            <img src="./assets/img/product/TrendingProducts-4.webp" />
+          </div>
+          <div class="content d-flex flex-direction gap-2">
+            <h3>Cantilever chair</h3>
+            <div class="content-info d-flex flex-align felx-justify gap-3">
+              <span>$26.00</span>
+              <span class="old-price">$42.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="newslater">
+      <h2>Get Leatest Update By Subscribe Our Newslater</h2>
+      <a href="#" class="btn btn-primary shop-btn">Shop now</a>
+    </section>
+    <section class="clients">
+      <div class="container">
+        <div class="row gap-3">
+          <div class="logo">
+            <img src="./assets/img/Clients/client.webp" />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/Clients/client.webp" />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/Clients/client.webp" />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/Clients/client.webp" />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/Clients/client.webp" />
+          </div>
+          <div class="logo">
+            <img src="./assets/img/Clients/client.webp" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="Leatest-Blog text-center">
+      <h2>Leatest Blog</h2>
+      <div class="container">
+        <div class="row">
+          <div class="product">
+            <div class="img">
+              <img src="./assets/img/product/Leatest-Blog1.webp" />
+            </div>
+            <div class="content">
+              <div class="user d-flex flex-align gap-4">
+                <div class="author d-flex gap-1">
+                  <img src="./assets/img/public/Vector.svg" class="vactor" />
+                  <p>SaberAli</p>
+                </div>
+                <div class="date d-flex gap-1 ">
+                  <img src="./assets/img/public/date.svg" class="vactor" />
+                  <p>21 August,2020</p>
+                </div>
+              </div>
+              <div class="content-info d-flex flex-direction gap-4">
+                <h3>Top esssential Trends in 2021</h3>
+                <p>More off this less hello samlande lied much
+                  over tightly circa horse taped mightly</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img">
+              <img src="./assets/img/product/Leatest-Blog2.webp" />
+            </div>
+            <div class="content">
+              <div class="user d-flex flex-align gap-4">
+                <div class="author d-flex gap-1">
+                  <img src="./assets/img/public/Vector.svg" class="vactor" />
+                  <p>Surfauxion</p>
+                </div>
+                <div class="date d-flex gap-1 ">
+                  <img src="./assets/img/public/date.svg" class="vactor" />
+                  <p>21 August,2020</p>
+                </div>
+              </div>
+              <div class="content-info d-flex flex-direction gap-4">
+                <h3>Top esssential Trends in 2021</h3>
+                <p>More off this less hello samlande lied much
+                  over tightly circa horse taped mightly</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="product">
+            <div class="img">
+              <img src="./assets/img/product/Leatest-Blog3.webp" />
+            </div>
+            <div class="content">
+              <div class="user d-flex flex-align gap-4">
+                <div class="author d-flex gap-1">
+                  <img src="./assets/img/public/Vector.svg" class="vactor" />
+                  <p>SaberAli</p>
+                </div>
+                <div class="date d-flex gap-1 ">
+                  <img src="./assets/img/public/date.svg" class="vactor" />
+                  <p>21 August,2020</p>
+                </div>
+              </div>
+              <div class="content-info d-flex flex-direction gap-4">
+                <h3>Top esssential Trends in 2021</h3>
+                <p>More off this less hello samlande lied much
+                  over tightly circa horse taped mightly</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="row gap-6">
+        <div class="left-side d-flex flex-direction gap-6">
+          <img src="./assets/img/public/Hekto_logo.svg" />
+          <div class="search">
+            <form>
+              <input type="email" placeholder="Enter Email Address" />
+              <button type="submit" class="text-white">Sign Up</button>
+            </form>
+          </div>
+          <div class="address d-flex flex-direction gap-2">
+            <h2>contact Info</h2>
+            <p>17 Princess Road, London, Greater London NW1 8JR, UK</p>
+          </div>
+        </div>
+        <div class="rigth-side">
+          <div class="row">
+            <div class="footer-item d-flex flex-direction">
+              <h2>Catagories</h2>
+              <nav class="d-flex flex-direction gap-4">
+                <a href="#">Laptops & Computers</a>
+                <a href="#">Cameras & Photography</a>
+                <a href="#">Smart Phones & Tablets</a>
+                <a href="#">Video Games & Consoles</a>
+                <a href="#">Waterproof Headphones</a>
+              </nav>
+            </div>
+            <div class="footer-item d-flex flex-direction">
+              <h2>Customer Care</h2>
+              <nav class="d-flex flex-direction gap-4">
+                <a href="#">My Account</a>
+                <a href="#">Discount</a>
+                <a href="#">Returns</a>
+                <a href="#">Orders History</a>
+                <a href="#">Order Tracking</a>
+              </nav>
+            </div>
+            <div class="footer-item d-flex flex-direction">
+              <h2>Pages</h2>
+              <nav class="d-flex flex-direction gap-4">
+                <a href="#">Blog</a>
+                <a href="#">Browse the Shop</a>
+                <a href="#">Category</a>
+                <a href="#">Pre-Built Pages</a>
+                <a href="#">Visual Composer Elements</a>
+                <a href="#">WooCommerce Pages</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>

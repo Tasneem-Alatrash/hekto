@@ -466,7 +466,59 @@ header ul {
   background-color: #151875;
 }
 /* End newslater */
-
+/* start Top Categories */
+.Top-Categories {
+  padding: 50px 0;
+}
+.Top-Categories h2 {
+  font-size: 42px;
+  font-family: var(--secondfont);
+  color: #151875;
+  margin-bottom: 40px;
+}
+.Top-Categories .row {
+  gap: 20px;
+}
+.Top-Categories .product {
+  flex: 1 0 280px;
+}
+.Top-Categories .img {
+  border-radius: 50%;
+  margin-bottom: 30px;
+  transition: all 0.7s;
+  width: 280px;
+  height: 280px;
+}
+.Top-Categories .img img {
+  width: 90%;
+  padding: 10px;
+}
+.Top-Categories .view-Shop {
+  margin-bottom: 10px;
+  display: none;
+  transition: all 0.7s;
+}
+.Top-Categories .img .btn {
+  font-size: 12px;
+  padding: 8px 18px;
+}
+.Top-Categories .content p {
+  font-size: 20px;
+  color: #151875;
+  font-family: var(--secondfont);
+}
+.Top-Categories .content .price {
+  font-size: 16px;
+  color: #151875;
+  font-family: var(--secondfont);
+}
+.Top-Categories .product:hover .view-Shop {
+  display: block;
+}
+.Top-Categories .product:hover .img {
+  box-shadow: -6px 6px 0 #9877e7;
+}
+/* end Top Categories */
 /* Start Clients */
 .clients {
   padding: 50px 0;

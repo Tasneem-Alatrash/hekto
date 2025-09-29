@@ -318,11 +318,15 @@ header ul {
   .leatest-products .bar {
     display: block;
   }
+
   .leatest-products nav {
     display: none;
   }
   .leatest-products h2 {
     font-size: 25px;
+  }
+  .leatest-products .product {
+    flex: 1 0 250px;
   }
   .leatest-products .products-toolbar {
     flex-direction: row;
@@ -330,6 +334,7 @@ header ul {
     align-items: flex-start;
   }
 }
+
 /* end leatest product */
 /* start shopex-offer */
 .shopex-offer {

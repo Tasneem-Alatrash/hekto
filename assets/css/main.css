@@ -224,6 +224,9 @@ header ul {
   .featured-product h2 {
     font-size: 25px;
   }
+  .featured-product .product {
+    flex: 1 0 200px;
+  }
 }
 
 /* end product */
@@ -326,7 +329,7 @@ header ul {
     font-size: 25px;
   }
   .leatest-products .product {
-    flex: 1 0 250px;
+    flex: 1 0 200px;
   }
   .leatest-products .products-toolbar {
     flex-direction: row;
